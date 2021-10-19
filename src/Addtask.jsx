@@ -15,7 +15,7 @@ function Addtask() {
                 <h1>Add Task component </h1>
                 <div className="col-md-6">
                     <input type="text" placeholder="Task Name" value={taskName} className="form-control w-75" style={{ display: 'inline' }} onChange={(e) => settaskName(e.target.value)} />
-                    <button className="btn btn-success " onClick={addTask}>Add Task</button>
+                    <button className="btn btn-success m-3 " onClick={addTask}>Add Task</button>
                     </div>
             </div>
         </div>
